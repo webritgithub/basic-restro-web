@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap')
+header .content{
+position:relative;
+color:#fff;
+marin-top:50px;
+}
+header .content h1{
+margin-top:3px;
+font-size:45px;
+padding:20px 498px;
+color:#fff;
+}
+header .content .btns{
+margin-top:2px;
+display:flex;
+align-items:center;
+padding:0px 470px;
+}
+header .content .btns a{
+padding:8px 20px;
+font-size:15px;
+fint-weight:600;
+background:linear-gradient(90deg,#A64C4C,#590000);
+border-radius:5px;
+color:#fff;
+margin-left:10px;
+text-decoration:none;
+animation:button 1s linear infinite;
+}
+@keyframes button{
+0%{
+background:linear-gradient(0deg,#A64C4C,#590000);
+}
+12%{
+           background:linear-gradient(45deg,#A64C4C,#590000);
+      }
+24%{
+           background:linear-gradient(95deg,#A64C4C,#590000);
+      }
+36%{
+           background:linear-gradient(145deg,#A64C4C,#590000);
+      }
+48%{
+           background:linear-gradient(195deg,#A64C4C,#590000);
+      }
+60%{
+           background:linear-gradient(245deg,#A64C4C,#590000);
+      }
+72%{
+           background:linear-gradient(295deg,#A64C4C,#590000);
+      }
+100%{
+           background:linear-gradient(360deg,#A64C4C,#590000);
+        }
+}
+header section{
+position:relative;
+width:100%;
+height:auto;
+padding:0px 50px;
+color:#fff;
+}
+header section .cards{
+position:relative;
+width:90%;
+height:60%;
+margin-top:10px;
+display:flex;
+align-items:center;
+overflow-x:auto;
+scroll-behavior:smooth;
+}
+header section .cards::-webkit-scrollbar{
+display:none;
+}
+header section .cards .card{
+position:relative;
+min-width:130px;
+height:180px;
+border-radius:8px;
+margin-right:10px;
+background:#000;
+transition:.3s linear;
+}
+header section .cards .card .sand{
+width:100%;
+height:100%;
+border-radius:8px;
+position:relative;
+}
+header section .cards .card:hover{
+width:300px;
+overflow:hidden;
+}
+
+

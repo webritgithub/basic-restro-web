@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+ <link rel="stylesheet" href="C:\Users\Dayatri\Desktop\website.css">
+<link rel="stylesheet" href="C:\Users\Dayatri\Desktop\catering.css">
+<link rel="stylesheet" href="C:\Users\Dayatri\Desktop\party.css">
+
+<link rel="shortcut icon" href="C:\Users\Dayatri\Downloads\fork.png" type="image/png">
+ <title>Heaven for Vegan</title>
+</head>
+<body background="C:\Users\Dayatri\Downloads\black.avif" type="image/avif">
+<header>
+<nav>
+<div class="logo_ul">
+                   <img src="C:\Users\Dayatri\Downloads\logo2.png">
+                   <ul>
+                     <li>
+                          <a href="C:\Users\Dayatri\Desktop\website.html">HOME</a>
+                     </li>
+                     <li>
+                          <a href="C:\Users\Dayatri\Desktop\menu.html">MENU</a>
+                     </li>
+                     <li>
+                          <a href="C:\Users\Dayatri\Desktop\catering.html">CATERING</a>
+                     </li>
+                     <li>
+                          <a href="C:\Users\Dayatri\Desktop\party.html">PARTIES</a>
+                     </li>
+                     <li>
+                          <a href="C:\Users\Dayatri\Desktop\reserve.html">RESERVE</a>
+                     </li>
+                  </ul>
+               </div>
+</nav>
+<div class="content">
+                  <h1 style="font-family:ItalicT">Catering</h1>
+                  <p>Please fill out the form below and we'll do our best to accommodate your desired date and any requests you may have to make your party/celebration memorable.</p>
+          </div>
+<div class="logo">
+<img src="C:\Users\Dayatri\Downloads\catering.jpg">
+</div>
+<div class="container">
+        <form method="POST" name="submit-to-google-sheet">
+            
+            <input type="text" name="Name" placeholder="Your name..." required><br><br>
+            <input type="text" name="Phone-No" placeholder="Your mobile number..." required><br><br>
+            <input type="text" name="Email Id" placeholder="Your email..." required><br><br>
+
+            <select id="occasion">
+                  <option value="occasion">Select Occasion</option>
+                   <option value="Birthday">Birthday</option>
+                   <option value="Graduation">Graduation</option>
+                    <option value="Anniversary">Anniversary</option>
+                    <option value="Baby Shower">Baby Shower</option>
+                    <option value="Bachelor Party">Bachelor Party</option>
+                   <option value="Bridal Shower">Bridal Shower</option>
+                   <option value="Wedding">Wedding</option>
+                   <option value="Retirement">Retiremen</option>
+                    <option value="Kitty Party">Kitty Party</option>
+                    <option value="Other">Other</option>
+               </select><br><br>
+            <select id="Type">
+                   <option value="Select Type Of Catering Service">Select Type Of Catering Service</option>
+                   <option value="Pick-up">Pick-up</option>
+                    <option value="Delivery">Delivery</option>
+                    <option value="Full Staffed">Full Staffed</option>
+                   
+               </select><br><br>      
+            <input type="text" name="Budget" placeholder="Budget" required><br><br>
+           <input type="text" name="Date and Time" placeholder="Date and Time" required><br><br>
+            <textarea rows="7" name="Message" placeholder="Description/Requests(optional)..."></textarea><br><br>
+            <button class="btn btn1">Send</button> 
+            <span id="msg"></span>
+        </form>
+</div>
+<div class="footer">
+<h4>copyright@2023| Rits.in</h4>
+<p>Home|Contact|Privacy Policy</p>
+</div>
+</header>
+</body>
+</html>
